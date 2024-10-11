@@ -8,7 +8,7 @@ body *{
   font-style: normal;
 }
 
-#contact{
+.contact{
     background-color:rgba(56, 152, 200, 1);
     color:#FFFFFF;
     display:flex;
@@ -36,12 +36,14 @@ header{
 }
 
 
-#menu{
+.menu{
+  background-color: #ffffff;
     display:flex;
     align-items: center;
-    padding:10px;
     justify-content: space-evenly;
     gap:150px;
+
+    
 }
 
 
@@ -54,7 +56,7 @@ nav svg{
     margin-right:8px;
 }
 
-#menu div{
+.menu div{
     display:flex;
     align-items: center;
     justify-content:center;
@@ -69,14 +71,14 @@ nav svg{
 
 }
 
-#img{
+.img{
   display:flex;
   justify-content:center;
   align-items:center
 
 }
 
-#aboutus{
+.aboutus{
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -84,6 +86,7 @@ nav svg{
     text-align:center;
     color:white;
     height: 200px;
+
 }      
 
 h2{
@@ -91,7 +94,7 @@ h2{
     margin:17px;
 }
 
-#thirdpart{
+.thirdpart{
     background-color:#FFFFFF;
     padding-top:39px;
     padding-bottom:39px;
@@ -130,7 +133,7 @@ h2{
 
     }
 
-    #forthpart{
+    .fourthpart{
         background: #ABB3C3;
         align-items:center;
         display:flex;
@@ -140,7 +143,7 @@ h2{
         
     }
 
-    #forthpart span{
+    .fourthpart span{
         font-size: 43.31px;
         font-weight: 300;
         line-height: 51.98px;
@@ -150,7 +153,7 @@ h2{
 
     }
 
-  #list{
+  .list{
 padding-right:216px ;
 padding-left:216px;
 background: #FFFFFF;
@@ -176,7 +179,7 @@ margin-bottom:45px;
 
   }
 
-  #list span{
+  .list span{
 font-size: 19px;
 font-weight: 400;
 line-height: 22px;
@@ -191,7 +194,7 @@ text-align: left;
     justify-content:space-around;
   }
 
-  #contacts span{
+  .contacts span{
     color:white;
 
 font-size: 17px;
@@ -201,7 +204,7 @@ width: 128px;
 height: 21px;
   }
 
-  #contacts p{
+  .contacts p{
     font-size: 11px;
     font-weight: 300;
     line-height: 13px;
@@ -211,7 +214,7 @@ height: 21px;
     color:#3898C8;
   }
 
-  #socialmedia{
+  .socialmedia{
     padding-top:31px;
     display:flex;
     justify-content:space-around;
