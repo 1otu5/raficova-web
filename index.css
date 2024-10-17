@@ -23,6 +23,9 @@ body *{
     
 }
 
+a:visited{
+  color:#3898C8;
+}
 
 header{
     background-color: #ffffff;
@@ -94,7 +97,6 @@ nav svg{
   }      
 
 .aboutus p{
-  font-family: Lato;
   font-size: 36px;
   font-weight: 300;
   line-height: 47px;
@@ -189,10 +191,12 @@ margin:auto;
 gap:9px;
 margin-top:45px;
 margin-bottom:45px;
+
   }
 
   .list-item{
     width:49%;
+ 
   }
 
   .listitem-desc{
@@ -233,10 +237,12 @@ height: 21px;
     font-size: 11px;
     font-weight: 300;
     line-height: 13px;
+    color:white;
   }
 
   #mail{
     color:#3898C8;
+    text-decoration: none;
   }
 
   .socialmedia{
