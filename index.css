@@ -6,6 +6,8 @@ body *{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin:0px;
+  padding:0px;
 }
 
 .contact{
@@ -84,8 +86,8 @@ nav svg{
 
 
 #mainimg{
-    width: 1440px;
-    height  : 400px;
+    width:100%;
+    height :auto;
 
 }
 
@@ -102,7 +104,7 @@ nav svg{
     background-color:#3898C8;
     text-align:center;
     color:white;
-
+    
     
   }      
 
@@ -110,11 +112,8 @@ nav svg{
   font-size: 36px;
   font-weight: 300;
   line-height: 47px;
-  padding-left:266px;
-  padding-right:264px;
-  padding-top:16px;
-  padding-bottom:16px;
-  margin:0;
+  margin:auto;
+  width:70%;
 }
 
 .thirdpart{
@@ -149,7 +148,7 @@ nav svg{
     line-height: 23px;  
     text-align: left;
     margin:5px;
-    width: 317.7px;
+
     height: 118px;
 
     }
@@ -189,8 +188,7 @@ nav svg{
     
 
   .list{
-padding-right:216px ;
-padding-left:216px;
+    width:70%;
 background: #FFFFFF;
 display:flex;
 flex-direction:row;
@@ -199,7 +197,8 @@ margin:auto;
 gap:9px;
 margin-top:45px;
 margin-bottom:45px;
-
+justify-content:center;
+    
   }
 
   .list-item{
@@ -269,4 +268,38 @@ display:flex;
 padding-top:25px;
 justify-content:center;
 color:white;
+  }
+
+  @media (max-width: 1440px){
+
+    .contact{
+   
+    }
+
+   
+  }
+
+  @media (max-width: 1200px){
+    .contact{
+   
+    } 
+
+
+  }
+
+  @media (max-width: 1000px){
+    .contact{
+    }
+  }
+
+  @media (max-width :768px){
+
+  }
+
+  @media (max-width :480px){
+
+  }
+
+  @media (max-width :320px){
+
   }
