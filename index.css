@@ -27,15 +27,8 @@ body * {
 
 }
 
-a:visited {
-  color: black;
-}
 
 .link {
-  color: #3898C8;
-}
-
-.link:visited {
   color: #3898C8;
 }
 
@@ -49,6 +42,9 @@ header {
   align-items: center;
 }
 
+header nav a {
+  color: black;
+}
 
 .menu {
   height: 94px;
