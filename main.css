@@ -4,7 +4,6 @@ body {
 
 body * {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
     font-style: normal;
     margin: 0px;
     padding: 0px;
@@ -215,9 +214,8 @@ nav svg {
     margin-bottom:10px;
 }
 
-.moreinf span{
-    font-weight:bold;
-    
+.moreinf a{
+    font-weight:400;
 }
 
 .contacts a{
