@@ -143,6 +143,7 @@ nav svg {
 }
 
 .forborder {
+    display:block;
     padding-top: 31px;
     padding-bottom: 35px;
     margin-left: 310px;
@@ -171,14 +172,15 @@ nav svg {
     margin-right: 100px;
 }
 
-.list p {
+.list a {
+    display:block;
     font-family: Lato;
     font-size: 15px;
     font-weight: 400;
     line-height: 18px;
     color: white;
     padding-top:10px;
-    
+    text-decoration:none;
     
 }
 
@@ -276,3 +278,7 @@ footer {
     padding-bottom: 4px;
   }
 
+@media(max-width:1200px){
+
+
+}

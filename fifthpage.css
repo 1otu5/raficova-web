@@ -233,15 +233,16 @@ padding-bottom:25px;
   margin-right: 100px;
 }
 
-.lists p {
+.lists a {
+  display:block;
   font-family: Lato;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: white;
-  padding-top: 10px;
-
-
+  padding-top:10px;
+  text-decoration:none;
+  
 }
 
 .contacts {
