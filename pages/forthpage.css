@@ -1,84 +1,85 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 body * {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    margin: 0px;
-    padding: 0px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
 }
 
-.socialmedia {
-    background-color: rgba(56, 152, 200, 1);
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 30px;
-    font-size: 11px;
-    font-weight: 300;
-    line-height: 13px;
-    padding-top: 5px;
-    padding-bottom: 3px;
+.contact {
+  background-color: rgba(56, 152, 200, 1);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  text-align: left;
+  padding-top:5px;
+  padding-bottom:3px;
 
 
 }
 
 
 .link {
-    color: #3898C8;
+  color: #3898C8;
 }
 
 header {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 
 #logo {
-    height: 56px;
-    align-items: center;
+  height: 56px;
+  align-items: center;
 }
 
 header nav a {
-    color: black;
+  color: black;
 }
 
 .menu {
-    height: 94px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 150px;
+  height: 94px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 150px;
 
 }
 
 .menu a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav a {
-    margin-left: 2px;
-    margin-right: 8px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 56px;
+  margin-left: 2px;
+  margin-right: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 56px;
 
 }
 
 nav svg {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .menu div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 40px;
 }
-
 
 .inf {
     background: #3898C8;
@@ -89,9 +90,9 @@ nav svg {
 }
 
 
-.inf p {
-    line-height: 18px;
-    padding: 0;
+.inf p{
+    line-height:18px;
+    padding:0;
 }
 
 
@@ -113,76 +114,74 @@ nav svg {
 
 .inf p:first-of-type {
     margin-top: 10px;
-
-
 }
 
-.forlist {
+.forlist{
     background-color: white;
 }
 
-.list {
-    margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
+.list{
+    margin-top:25px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:25px; 
 }
 
-#metapathia {
+#metapathia{
     font-family: Lato;
     font-size: 20px;
     font-weight: 400;
+    
 
+    
+}
 
+.list span{
+    display:block;
+    margin-bottom:37px;
+    margin-top:37px;
 
 }
 
-.list span {
-    display: block;
-    margin-bottom: 37px;
-    margin-top: 37px;
+.marg{
 
+    margin-top:37px;
 }
 
-.marg {
-
-    margin-top: 37px;
+.list p:nth-of-type(27){
+    margin-bottom:37px;
 }
 
-.list p:nth-of-type(27) {
-    margin-bottom: 37px;
+.list p:nth-of-type(21){
+    margin-bottom:37px;
 }
 
-.list p:nth-of-type(21) {
-    margin-bottom: 37px;
-}
-
-.photo {
+.photo{
     background-color: #ABB3C3;
-    text-align: center;
+    text-align:center;
 }
 
-.forphoto {
-    font-family: Lato;
-    font-size: 300px;
-    font-weight: 900;
-    line-height: 360px;
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.forphoto{
+font-family: Lato;
+font-size: 300px;
+font-weight: 900;
+line-height: 360px;
+color:white;
+padding-top:25px;
+padding-bottom:25px;
 }
 
-.info {
+.info{
     background-color: white;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-right:100px;
+    margin-left:100px;
 }
 
-.info p:nth-of-type(4) {
-    margin-top: 37px;
-    margin-bottom: 37px;
+.info p:nth-of-type(4){
+    margin-top:37px;
+    margin-bottom:37px;
 }
 
 .models {
@@ -190,8 +189,6 @@ nav svg {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
-
 
 .forborder {
     margin-left: 310px;
@@ -201,14 +198,11 @@ nav svg {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    color: #3898C8;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    padding-left: 34px;
-    padding-right: 34px;
-
-
-
+    padding-top:21px;
+    padding-bottom:21px;
+    padding-left:34px;
+    padding-right:34px;
+    color:#3898C8;
 }
 
 .anotherlist {
@@ -345,3 +339,4 @@ footer {
     color: white;
     padding-bottom: 4px;
 }
+
