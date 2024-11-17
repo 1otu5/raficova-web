@@ -194,8 +194,7 @@ nav svg {
 
 
 .forborder {
-    margin-left: 310px;
-    margin-right: 310px;
+    width:86%;
     border: 2px solid #3898C8;
     font-family: Lato;
     font-size: 20px;
