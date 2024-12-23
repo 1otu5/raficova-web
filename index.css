@@ -1,0 +1,630 @@
+body {
+  margin: 0;
+}
+
+body * {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact {
+  background-color: rgba(56, 152, 200, 1);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 3px;
+
+
+}
+
+
+.link {
+  color: #3898C8;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+
+#logo {
+  height: 56px;
+  align-items: center;
+}
+
+header nav a {
+  color: black;
+}
+
+.menu {
+  height: 94px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 270px;
+
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+
+nav a {
+  margin-left: 2px;
+  margin-right: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 56px;
+
+}
+
+nav svg {
+  margin-right: 8px;
+}
+
+.menu>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 40px;
+}
+
+
+#mainimg {
+  width: 90%;
+  height: auto;
+
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  background-color: #3898C8;
+  text-align: center;
+  color: white;
+
+}
+
+.aboutus p {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 47px;
+  margin: auto;
+  margin-left: 240px;
+  margin-right: 239px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+.thirdpart {
+  background-color: #FFFFFF;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.imgforinfo {
+  height: 170px;
+  width: 170px;
+  display: flex;
+  margin: auto;
+
+}
+
+.information {
+  width: 314px;
+}
+
+.information span {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+
+.information p {
+  font-size: 15px;
+  line-height: 23px;
+  text-align: left;
+  height: 118px;
+  margin-top: 4px;
+}
+
+.fourthpart {
+  background: #ABB3C3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+
+.fourthpart span {
+  font-size: 43px;
+  font-weight: 300;
+  line-height: 52px;
+  color: white;
+
+}
+
+#button {
+  border: 1.5px solid #FFFFFF;
+  width: 84px;
+  height: 42px;
+  background: #ABB3C3;
+  color: white;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+
+.list {
+  width: 70%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 9px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  justify-content: center;
+
+}
+
+.list-item {
+  width: 49%;
+}
+
+.listitem-desc {
+  border-left: 5px solid #3898C8;
+  background-color: #EEEEEE;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  margin: 0;
+  margin-top: 4px;
+
+}
+
+.listitem-desc>p {
+  margin: 0;
+}
+
+.list span {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+
+}
+
+footer {
+
+  background: #37424A;
+  justify-content: space-around;
+}
+
+
+.contacts span {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 128px;
+  height: 21px;
+}
+
+
+.contacts p {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  color: white;
+}
+
+#mail {
+  color: #3898C8;
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+}
+
+.socialmedia {
+  padding-top: 31px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialmedia span,
+p {
+  padding-top: 10px;
+}
+
+
+#creator {
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+  color: white;
+  padding-bottom: 4px;
+}
+
+@media (max-width: 1440px) {}
+
+@media (max-width :1024px) {
+  .menu {
+    gap: 50px;
+  }
+}
+@media (max-width: 1000px) {
+
+
+  .menu span {
+    font-size: 12px;
+  }
+
+  #logo {
+    width: 40px;
+    height: auto;
+  }
+
+  nav {
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  nav #stick {
+    width: 3px;
+    height: auto;
+  }
+
+  nav svg {
+    width: 20px;
+    height: 15px;
+    margin-right: 2px;
+
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .imgforinfo {
+    width: 130px;
+    height: auto;
+
+  }
+
+
+  .information p {
+    font-size: 14px;
+    line-height: 15px;
+
+  }
+
+  .information span {
+    font-size: 18px;
+  }
+
+  .aboutus p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .fourthpart span {
+    font-size: 30px;
+  }
+
+  .list p {
+    font-size: 13px;
+  }
+
+  .list span {
+    font-size: 15px;
+  }
+}
+@media (max-width :796px) {
+  .menu {
+    gap: 16px;
+  }
+}
+@media (max-width :768px) {
+
+
+  #button {
+    margin-left: 30px;
+  }
+
+  .fourthpart span {
+    font-size: 22px;
+
+  }
+
+  .contact span {
+    font-size: 11px;
+
+  }
+
+
+  .imgforinfo {
+    width: 100px;
+    height: auto;
+
+  }
+
+  .information p {
+    font-size: 12px;
+    line-height: 13px;
+
+  }
+
+  .information span {
+    font-size: 16px;
+  }
+
+
+  .list p {
+    font-size: 12px;
+  }
+
+  .list span {
+    font-size: 14px;
+  }
+
+  nav {
+    width: auto;
+    height: auto;
+  }
+
+  nav a {
+    font-size: 12px;
+    line-height: 20px;
+
+  }
+
+  .aboutus p {
+    font-size: 20px;
+
+
+  }
+
+  #button {
+    font-size: 15px;
+
+  }
+
+  .list {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+  }
+
+  .list-item {
+    width: 100%;
+
+  }
+
+
+
+}
+
+@media (max-width :576px) {
+  .fourthpart span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width :488px) {
+
+  #button {
+    margin-left: 10px;
+  }
+
+  .fourthpart span {
+    font-size: 14px;
+    line-height: 20px;
+
+  }
+
+  .imgforinfo {
+    width: 100px;
+    height: auto;
+
+  }
+
+  .information p {
+    font-size: 9px;
+    line-height: 13px;
+
+  }
+
+  .information span {
+    font-size: 14px;
+  }
+
+
+  .list p {
+    font-size: 10px;
+  }
+
+  .list span {
+    font-size: 13px;
+  }
+
+
+  nav a {
+    font-size: 12px;
+    line-height: 15px;
+
+  }
+
+  .aboutus p {
+    font-size: 18px;
+
+
+  }
+
+  .aboutus {
+    width: 100%;
+
+  }
+
+  .menu {
+    gap: 0;
+  }
+
+  nav svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .list-item {
+    width: 100%;
+
+  }
+
+  .contact span {
+    font-size: 9px;
+
+  }
+
+  #button {
+    font-size: 13px;
+  }
+
+  #creator {
+    font-size: 12px;
+  }
+
+  footer a {
+    font-size: 12px;
+  }
+
+  .socialmedia span {
+    font-size: 15px;
+  }
+
+  .socialmedia p {
+    font-size: 12px;
+  }
+
+  .socialmedia svg {
+    width: 30px;
+  }
+
+}
+
+@media (max-width :360px) {
+  .information img {
+    width: 80px;
+  }
+}
+
+
+.menu .principal-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div .flags {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .burger-menu {
+  display: none;
+}
+
+
+@media (max-width :656px) {
+  .menu {
+    justify-content: space-between;
+    padding: 0 25px;
+    overflow:visible;
+  }
+
+  .burger-menu-content {
+    position: absolute;
+    top: 0;
+    right:10vh;
+    height: 50hv;
+    width:45vw;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+  }
+
+  .burger-menu-content-active {
+    right: 0;
+    transition: 1s;
+  }
+
+  .burger-menu-content>a {
+    text-align:center;
+    color:#3898C8;
+    border:#3898C8 solid 1px;
+    
+  }
+
+  .menu .principal-navigation {
+    display: none;
+  }
+
+  .menu .burger-menu {
+    display: block;
+  }
+ .burger-menu a:hover{
+    background-color: #3898C8;
+    color:white;
+  }
+}
