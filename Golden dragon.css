@@ -190,7 +190,6 @@ padding-bottom:25px;
 }
 
 .forborder {
-    width:86%;
     margin:auto;
     border: 2px solid #3898C8;
     font-family: Lato;
@@ -202,6 +201,8 @@ padding-bottom:25px;
     padding-left:34px;
     padding-right:34px;
     color:#3898C8;
+    margin-left:100px;
+    margin-right:100px;
 }
 
 .anotherlist {
