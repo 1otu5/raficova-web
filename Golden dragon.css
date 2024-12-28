@@ -160,16 +160,6 @@ nav svg {
     text-align:center;
 }
 
-.forphoto{
-font-family: Lato;
-font-size: 300px;
-font-weight: 900;
-line-height: 360px;
-color:white;
-padding-top:25px;
-padding-bottom:25px;
-}
-
 .info{
     background-color: white;
     margin-top:25px;
@@ -342,9 +332,3 @@ footer {
     padding-bottom: 4px;
 }
 
-@media (max-width : 1200px){
-    .forborder{ 
-
-        width:60%;
-}
-}

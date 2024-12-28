@@ -39,7 +39,6 @@ header {
 
 #logo {
   height: 56px;
-  align-items: center;
 }
 
 header nav a {
@@ -47,12 +46,12 @@ header nav a {
 }
 
 .menu {
-  height: 94px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 270px;
+height: 94px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
 
 }
 
